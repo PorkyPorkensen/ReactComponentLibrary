@@ -4,6 +4,7 @@ import Badges from "./components/badges/Badges";
 import Banners from "./components/banners/Banners";
 import Cards from "./components/cards/Cards";
 import Testimonials from "./components/testimonials/Testimonials"
+import testImg from "./images/ptrt.jpg"
 
 function App() {
   return (
@@ -85,7 +86,7 @@ function App() {
       <br />
       <h1>Testimonials</h1>
       <Testimonials 
-      imgUrl="./images/ptrt.jpg" 
+      imgUrl={testImg} 
       altText="Man in deep thought"
       name="Joe Schmoe"
       testText="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna nulla vitae laoreet augue. Amet feugiat est integer dolor auctor adipiscing nunc urna, sit." 
