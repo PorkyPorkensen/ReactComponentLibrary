@@ -85,7 +85,7 @@ function App() {
       <br />
       <h1>Testimonials</h1>
       <Testimonials 
-      imgUrl="/images/ptrt.jpg" 
+      imgUrl="./images/ptrt.jpg" 
       altText="Man in deep thought"
       name="Joe Schmoe"
       testText="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna nulla vitae laoreet augue. Amet feugiat est integer dolor auctor adipiscing nunc urna, sit." 
